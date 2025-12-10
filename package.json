@@ -1,41 +1,26 @@
 {
-  "name": "fix-react2shell-next",
-  "version": "1.0.18",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/vercel-labs/fix-react2shell-next.git"
-  },
-  "description": "Fix the React 2 Shell vulnerability (CVE-2025-66478) in Next.js apps with one command",
-  "main": "index.js",
-  "bin": {
-    "fix-react2shell-next": "./bin/cli.js"
-  },
+  "name": "thainguyen365app",
+  "version": "1.0.0",
+  "description": "Thai Nguyen 365 Application with Vercel Speed Insights",
+  "private": true,
   "scripts": {
-    "changeset": "changeset",
-    "version": "changeset version",
-    "release": "changeset publish"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [
-    "nextjs",
-    "react",
-    "security",
-    "vulnerability",
-    "cve",
-    "rce",
-    "fix",
-    "patch"
-  ],
-  "author": "",
-  "license": "MIT",
-  "engines": {
-    "node": ">=16"
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@vercel/speed-insights": "^1.0.0"
   },
-  "files": [
-    "bin",
-    "lib"
-  ],
   "devDependencies": {
-    "@changesets/cli": "^2.27.10"
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^15.0.0"
   },
   "packageManager": "pnpm@10.24.0+sha512.01ff8ae71b4419903b65c60fb2dc9d34cf8bb6e06d03bde112ef38f7a34d6904c424ba66bea5cdcf12890230bf39f9580473140ed9c946fef328b6e5238a345a"
 }
